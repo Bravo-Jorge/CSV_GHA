@@ -13,7 +13,7 @@ jobs:
         uses: ./
         with:
           test-plan-path: ./TestPlans/S02_DataSetConfig/S02_DataSetConfig.jmx
-          args: "-q test.properties"
+          args: -q test.properties
           
       - name: Upload Results
         uses: actions/upload-artifact@v2
